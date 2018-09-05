@@ -12,3 +12,9 @@ Shell command to copy JSON to home folder:
 ```console
 [cs4984cs5984f18_team7@node00 ~]$ hadoop fs -get /user/cs4984cs5984f18_team7/7_Shooting_Las_Vegas_2017/sentences .
 ```
+
+Shell command for Solr indexing (run on blacklight and not cluster)"
+
+```console
+cs4984cs5984f18_team7@blacklight:~$ curl 'http://blacklight.cs.vt.edu:8983/solr/small_team7/update/json?commit=true' --data-binary @solr_part-00000-0bea3248-24c6-43cd-bee1-d623d62a2547-c000.json -H 'Content-type:application/json'
+```
