@@ -1,6 +1,11 @@
 # CS4984-5984-Group-7
 Big data (Text Summarization)
 
+Copy event folder to HDFS:
+```console
+[cs4984cs5984f18_team7@node00 ~]$ hadoop fs -put /home/public/cs4984_cs5984_f18/unlabeled/data/7_NeverAgain_big /user/cs4984cs5984f18_team7/7_NeverAgain_big
+```
+
 Spark Shell command for running our WARC/CDX to JSON conversion:
 
 ```console
