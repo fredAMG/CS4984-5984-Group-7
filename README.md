@@ -15,7 +15,7 @@ Spark Shell command for running our WARC/CDX to JSON conversion:
 Shell command to copy JSON to home folder:
 
 ```console
-[cs4984cs5984f18_team7@node00 ~]$ hadoop fs -get /user/cs4984cs5984f18_team7/7_Shooting_Las_Vegas_2017/sentences .
+[cs4984cs5984f18_team7@node00 ~]$ hadoop fs -get /user/cs4984cs5984f18_team7/7_NeverAgain_big/sentences .
 ```
 
 Shell command for Solr indexing (run on blacklight and not cluster)"
